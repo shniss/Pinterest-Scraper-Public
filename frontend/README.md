@@ -1,8 +1,6 @@
 # Pinterest AI Agent Frontend
 
-A modern React/Next.js frontend application that provides a real-time interface for Pinterest image scraping and AI-powered validation. Built with TypeScript, Tailwind CSS, and shadcn/ui components
-
-## 🏗️ Architecture
+## Architecture
 
 ### Core Technologies
 - **Next.js 15**
@@ -26,7 +24,7 @@ A modern React/Next.js frontend application that provides a real-time interface 
                        └─────────────────┘
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 frontend/
@@ -75,7 +73,7 @@ frontend/
 └── components.json                 # shadcn/ui configuration
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Node.js 18+ 
@@ -118,22 +116,7 @@ frontend/
    http://localhost:3000
    ```
 
-### Environment Variables
-
-Create a `.env.local` file with the following variables:
-
-```env
-# Backend API URL
-NEXT_PUBLIC_API_URL=http://localhost:8000
-
-# WebSocket URL
-NEXT_PUBLIC_WS_URL=ws://localhost:8000
-
-# Optional: Analytics
-NEXT_PUBLIC_ANALYTICS_ID=your_analytics_id
-```
-
-## 🎨 UI Components
+## UI Components
 
 ### Core Components
 
@@ -148,12 +131,6 @@ The main application component that orchestrates the entire search workflow.
 
 #### SearchLanding
 The initial landing page with search input and prompt entry.
-
-**Features:**
-- Clean, modern search interface
-- Input validation
-- Animated text effects
-- Responsive design
 
 #### SearchResults
 Displays the grid of scraped images with filtering capabilities.
@@ -180,15 +157,6 @@ Slider for setting the minimum rating threshold (0-100%).
 
 ### REST API Client
 Located in `src/lib/api.ts`, handles HTTP requests to the backend.
-
-**Key Methods:**
-```typescript
-// Create a new search prompt
-createPrompt(prompt: string, sessionId: string): Promise<CreatePromptResponse>
-
-// Get prompt status
-getPromptStatus(promptId: string): Promise<PromptStatus>
-```
 
 ### WebSocket Client
 Located in `src/lib/websocket.ts`, manages real-time communication.
@@ -217,7 +185,7 @@ interface ValidationMessage {
 }
 ```
 
-## 🎯 User Workflow
+## User Workflow
 
 ### 1. Search Initiation
 1. User enters a search prompt (e.g., "modern minimalist interior design")
