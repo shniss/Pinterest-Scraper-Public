@@ -131,7 +131,7 @@ OPENAI_API_KEY=your_openai_api_key
    poetry run uvicorn app.app:app --reload --host 0.0.0.0 --port 8000
    ```
 
-## 🔌 API Endpoints
+## API Endpoints
 
 ### REST Endpoints
 
@@ -171,7 +171,7 @@ Real-time communication for task progress updates.
 4. **Database Update** - Store validation results
 5. **Frontend Broadcast** - Send results via WebSocket
 
-## 🔧 Configuration
+## Configuration
 
 ### Celery Configuration
 - **Broker:** Redis
