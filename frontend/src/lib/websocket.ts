@@ -18,8 +18,8 @@ export class WebSocketService {
   private maxReconnectAttempts = 5
   private reconnectDelay = 1000
   private callbacks: WebSocketCallbacks = {}
-
-  constructor(private baseUrl: string = 'ws://localhost:8000') {}
+  
+  constructor(private baseUrl: string = process.env.NEXT_PUBLIC_API_URL?.replace('http://', 'ws://') || 'ws://localhost:8000') {}
 
   connect(promptId: string, callbacks: WebSocketCallbacks = {}) {
     this.callbacks = callbacks

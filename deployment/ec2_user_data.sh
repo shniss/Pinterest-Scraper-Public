@@ -53,9 +53,7 @@ cd /opt/app
 
 # Clone the repository
 echo "Cloning repository..."
-git clone https://github.com/yourusername/pinterest-agent-platform.git .
-echo "⚠️  WARNING: Repository URL needs to be updated with your actual GitHub repo"
-echo "   For now, creating a basic structure..."
+git clone https://github.com/shniss/Pinterest-Scraper-Public.git .
 mkdir -p backend frontend deployment
 
 # Copy environment files

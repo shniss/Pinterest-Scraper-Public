@@ -8,7 +8,7 @@ WORKDIR /app
 COPY package*.json ./
 
 # Install dependencies with legacy peer deps to handle React version conflicts
-RUN npm ci --omit=dev --legacy-peer-deps
+RUN npm ci --legacy-peer-deps
 
 # Copy source code
 COPY . .
