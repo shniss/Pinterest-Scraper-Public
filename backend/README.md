@@ -2,7 +2,7 @@
 
 A FastAPI-based backend service that automates Pinterest account warmup and image scraping using AI-powered validation. This service provides real-time WebSocket communication for progress tracking and integrates with Celery for background task processing.
 
-## 🏗️ Architecture
+## Architecture
 
 ### Core Technologies
 - **FastAPI**
@@ -29,7 +29,7 @@ A FastAPI-based backend service that automates Pinterest account warmup and imag
                        └─────────────────┘    └─────────────────┘
 ```
 
-## 📁 Project Structure
+##Project Structure
 
 ```
 backend/
@@ -69,7 +69,7 @@ backend/
 └── poetry.lock                 # Locked dependency versions
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Python 3.11+
@@ -148,7 +148,7 @@ Real-time communication for task progress updates.
 - `ScrapedImageMessage` - New image found
 - `ValidationMessage` - AI validation results
 
-## 🔄 Background Tasks
+## Background Tasks
 
 ### Warmup and Scraping Task
 **Task Name:** `app.tasks.warmup_and_scraping`
