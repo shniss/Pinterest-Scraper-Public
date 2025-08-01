@@ -1,8 +1,6 @@
-# Pinterest AI Agent - Deployment Guide
+# Pinterest Agent Platform - Deployment Guide
 
-This guide will help you deploy the Pinterest AI Agent stack on a single Ubuntu 22.04 EC2 instance.
-
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Launch EC2 Instance
 
@@ -70,7 +68,7 @@ docker compose logs -f
 - **Backend API**: `http://your-ec2-public-ip:8000`
 - **API Documentation**: `http://your-ec2-public-ip:8000/docs`
 
-## 📁 Deployment Structure
+## Deployment Structure
 
 ```
 deployment/
@@ -85,7 +83,7 @@ deployment/
 └── README.md                  # This file
 ```
 
-## 🔧 Services Overview
+## Services Overview
 
 | Service | Port | Description |
 |---------|------|-------------|
@@ -95,7 +93,7 @@ deployment/
 | **Redis** | 6379 | Message broker |
 | **MongoDB** | 27017 | Database |
 
-## 🛠️ Management Commands
+##Management Commands
 
 ### View Service Status
 ```bash
@@ -136,7 +134,7 @@ git pull
 docker compose up -d --build
 ```
 
-## 🔍 Troubleshooting
+##Troubleshooting
 
 ### Check Service Health
 ```bash
@@ -194,25 +192,6 @@ docker compose logs redis
 docker compose exec redis redis-cli ping
 ```
 
-## 🔐 Security Considerations
-
-### Environment Variables
-- Never commit actual passwords to version control
-- Use strong, unique passwords for Pinterest accounts
-- Consider using AWS Secrets Manager for production
-
-### Network Security
-- Restrict security group access to your IP only
-- Use HTTPS in production (add SSL certificate)
-- Consider using AWS Application Load Balancer
-
-### Data Persistence
-- MongoDB and Redis data are stored in Docker volumes
-- Consider backing up volumes regularly
-- For production, use AWS RDS for MongoDB
-
-## 📊 Monitoring
-
 ### Basic Monitoring
 ```bash
 # Check service status
@@ -225,32 +204,7 @@ docker stats
 docker compose logs -f
 ```
 
-### Health Checks
-- Backend: `http://your-ip:8000/health`
-- Frontend: `http://your-ip/`
-- API Docs: `http://your-ip:8000/docs`
-
-## 🚀 Production Considerations
-
-For production deployments, consider:
-
-1. **Scaling**: Use larger instance types (t3.small or t3.medium)
-2. **Load Balancing**: Add AWS Application Load Balancer
-3. **SSL**: Configure HTTPS with Let's Encrypt or AWS Certificate Manager
-4. **Monitoring**: Add CloudWatch monitoring and logging
-5. **Backup**: Set up automated database backups
-6. **Security**: Use AWS Secrets Manager for sensitive data
-
-## 📞 Support
-
-If you encounter issues:
-
-1. Check the logs: `docker compose logs -f`
-2. Verify environment variables are set correctly
-3. Ensure all required ports are open in security group
-4. Check instance has sufficient resources
-
-## 🔄 Updates
+### Updates
 
 To update the application:
 

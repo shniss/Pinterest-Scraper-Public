@@ -47,7 +47,7 @@ curl -L "https://github.com/docker/compose/releases/latest/download/docker-compo
 chmod +x /usr/local/bin/docker-compose
 
 # Create application directory
-echo "📁 Setting up application directory..."
+echo "Setting up application directory..."
 mkdir -p /opt/app
 cd /opt/app
 
@@ -105,7 +105,7 @@ NODE_ENV=production
 EOF
 fi
 
-echo "⚠️  IMPORTANT: Please complete the setup:"
+echo " IMPORTANT: Please complete the setup:"
 echo "   2. Edit .env.backend with your actual API keys and passwords"
 echo "   3. Edit .env.frontend if needed"
 echo "   4. Then run: docker compose up -d"
@@ -117,42 +117,42 @@ chmod +x seed_pinterest_accounts.py
 cd /opt/app
 
 # Pull Docker images and build
-echo "📦 Building Docker images..."
+echo " Building Docker images..."
 docker compose build
 
 # Start the seed service first
-echo "🌱 Running seed service..."
+echo " Running seed service..."
 docker compose up -d --build seed
 
 # Wait for seed to complete
-echo "⏳ Waiting for seed service to complete..."
+echo " Waiting for seed service to complete..."
 sleep 30
 
 # Start the full stack
-echo "🚀 Starting full application stack..."
+echo " Starting full application stack..."
 docker compose up -d --build
 
 # Wait for services to be healthy
-echo "⏳ Waiting for services to be healthy..."
+echo " Waiting for services to be healthy..."
 sleep 60
 
 # Check service status
-echo "📊 Checking service status..."
+echo " Checking service status..."
 docker compose ps
 
-echo "✅ Deployment completed!"
+echo "Deployment completed!"
 echo ""
-echo "🌐 Application URLs:"
+echo "Application URLs:"
 echo "   Frontend: http://$(curl -s http://169.254.169.254/latest/meta-data/public-ipv4)"
 echo "   Backend API: http://$(curl -s http://169.254.169.254/latest/meta-data/public-ipv4):8000"
 echo "   API Docs: http://$(curl -s http://169.254.169.254/latest/meta-data/public-ipv4):8000/docs"
 echo ""
-echo "📝 Next steps:"
+echo " Next steps:"
 echo "   1. SSH into the instance: ssh ubuntu@$(curl -s http://169.254.169.254/latest/meta-data/public-ipv4)"
 echo "   2. Edit environment files: cd /opt/app/deployment && nano .env.backend"
 echo "   3. Restart services: docker compose restart"
 echo ""
-echo "🔍 Useful commands:"
+echo "Useful commands:"
 echo "   - View logs: docker compose logs -f"
 echo "   - Check status: docker compose ps"
 echo "   - Restart services: docker compose restart"

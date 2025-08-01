@@ -5,7 +5,7 @@
         "password":"env:PIN_PASSWORD",
         "storage_state":null,
         "cookies":[],
-                 "proxy":{
+        "proxy":{
            "server":"us-pr.oxylabs.io:10001",
            "username":"shniss_oleve_pFeOx",
            "password":"env:PROXY_PASSWORD",

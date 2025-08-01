@@ -5,9 +5,6 @@ from datetime import datetime, timezone
 from pydantic import BaseModel, Field, validator
 
 
-# ------------------------------------------------------------------ #
-# Cookie
-# ------------------------------------------------------------------ #
 class PinterestCookie(BaseModel):
     name: str
     value: str
@@ -41,9 +38,7 @@ class PinterestCookie(BaseModel):
         return v
 
 
-# ------------------------------------------------------------------ #
-# Proxy
-# ------------------------------------------------------------------ #
+
 class ProxyConfig(BaseModel):
     server: str  # host:port OR http://host:port
     username: Optional[str] = None
@@ -67,9 +62,7 @@ class ProxyConfig(BaseModel):
         }
 
 
-# ------------------------------------------------------------------ #
-# Account
-# ------------------------------------------------------------------ #
+
 class PinterestAccount(BaseModel):
     username: str
     email: str
@@ -89,7 +82,6 @@ class PinterestAccount(BaseModel):
     created_at: datetime = Field(default_factory=datetime.utcnow)
     updated_at: datetime = Field(default_factory=datetime.utcnow)
 
-    # ------------------------ helpers ------------------------------ #
     def needs_login(self) -> bool:
         """Decide whether to call session.login()."""
         return self.storage_state is None
@@ -103,8 +95,7 @@ class PinterestAccount(BaseModel):
         return [
             c.to_playwright() for c in self.cookies if (c.expires or now + 60) > now
         ]
-
-    # ------------------------ mongo helpers ------------------------ #
+    
     class Config:
         orm_mode = True
         json_encoders = {datetime: lambda v: v.isoformat()}

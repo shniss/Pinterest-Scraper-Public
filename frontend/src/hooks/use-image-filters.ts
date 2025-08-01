@@ -17,26 +17,18 @@ export function useImageFilters() {
   const getFilteredItems = useCallback((items: ImageItem[]) => {
     let filteredItems: ImageItem[]
     
-    console.log(`Filtering with type: ${filterType}, qualifyingLevel: ${qualifyingLevel}`)
-    console.log(`Total items: ${items.length}`)
-    console.log(`Evaluating items: ${items.filter(item => item.isEvaluating).length}`)
-    console.log(`Evaluated items: ${items.filter(item => !item.isEvaluating).length}`)
-    
     switch (filterType) {
       case "approved":
         // Show only images that meet the qualifying threshold
         filteredItems = items.filter((item) => !item.isEvaluating && item.percentage >= qualifyingLevel)
-        console.log(`Approved items: ${filteredItems.length}`)
         break
       case "disqualified":
         // Show only images below the qualifying threshold
         filteredItems = items.filter((item) => !item.isEvaluating && item.percentage < qualifyingLevel)
-        console.log(`Disqualified items: ${filteredItems.length}`)
         break
       default:
         // Show all images
         filteredItems = items
-        console.log(`All items: ${filteredItems.length}`)
     }
     
     // Sort by percentage (highest to lowest)
