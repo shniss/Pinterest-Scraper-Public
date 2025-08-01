@@ -1,8 +1,6 @@
 # Pinterest AI Agent Frontend
 
-A modern React/Next.js frontend application that provides a real-time interface for Pinterest image scraping and AI-powered validation. Built with TypeScript, Tailwind CSS, and shadcn/ui components for a professional user experience.
-
-## 🏗️ Architecture
+## Architecture
 
 ### Core Technologies
 - **Next.js 15** - React framework with App Router
@@ -27,7 +25,7 @@ A modern React/Next.js frontend application that provides a real-time interface 
                        └─────────────────┘
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 frontend/
@@ -76,7 +74,7 @@ frontend/
 └── components.json                 # shadcn/ui configuration
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Node.js 18+ 
@@ -119,7 +117,7 @@ frontend/
    http://localhost:3000
    ```
 
-## 🎨 UI Components
+## UI Components
 
 ### Core Components
 
@@ -188,7 +186,7 @@ interface ValidationMessage {
 }
 ```
 
-## 🎯 User Workflow
+## User Workflow
 
 ### 1. Search Initiation
 1. User enters a search prompt (e.g., "modern minimalist interior design")
