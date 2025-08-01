@@ -12,6 +12,9 @@ A FastAPI-based backend service that automates Pinterest account warmup and imag
 - **Redis** - Message broker and caching
 - **OpenAI GPT-4o-Mini Vision** - Relatively low-cost high performance image validation with simple integration through OpenAI API
 
+###Spec Deviations
+- **Pin Collection Model** status includes not only "approved" and "disqualified" but "pending" for the period between an image being scraped and being evaluated
+
 ### Service Architecture
 ```
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
@@ -135,22 +138,6 @@ OPENAI_API_KEY=your_openai_api_key
 #### `POST /prompts`
 Create a new Pinterest scraping prompt.
 
-**Request Body:**
-```json
-{
-  "prompt": "modern minimalist interior design",
-  "session_id": "unique_session_id"
-}
-```
-
-**Response:**
-```json
-{
-  "prompt_id": "generated_prompt_id",
-  "status": "pending"
-}
-```
-
 ### WebSocket Endpoints
 
 #### `WS /ws/{prompt_id}`
@@ -199,11 +186,4 @@ Real-time communication for task progress updates.
 - **Proxy Support:** Optional
 
 ### AI Validation Configuration
-- **Model:** OpenAI GPT-4 Vision
-- **Timeout:** 30 seconds per image
-- **Score Range:** 0-1 (normalized)
-- **Prompt Engineering:** Optimized for image relevance
-
-
-###Spec Deviations
-- **Pin Collection Model** status includes not only "approved" and "disqualified" but "pending" for the period between an image being scraped and being evaluated
+- **Model:** OpenAI GPT-4o-Mini Vision
