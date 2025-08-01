@@ -1,0 +1,436 @@
+{
+    "prompt": "cottagecore dresses",
+    "collections": [
+        {
+            "_id":{"$oid":"688b50e0cdc14f7c5aa8b1cb"},"text":"mens curly short haircut","status":"completed","created_at":{"$date":{"$numberLong":"1753960672383"}}
+        },
+        {
+            "_id":{"$oid":"688b50e0cdc14f7c5aa8b1cd"},"id":"688b50e0cdc14f7c5aa8b1cc","prompt_id":"688b50e0cdc14f7c5aa8b1cb","stage":"validation","status":"completed","timestamp":{"$date":{"$numberLong":"1753960672443"}},"log":["Warmup: Warmup started for mens curly short haircut!","Warmup: Getting Pinterest account info...","Warmup: Browser started","Warmup: Proxy configured","Warmup: Browser context created","Warmup: Configuring browser...","Warmup: Browser configured","Warmup: Navigating to Pinterest...","Warmup: Navigated to Pinterest","Warmup: Waiting for page to fully load...","Warmup: Not logged in, attempting login...","Warmup: Login successful","Warmup: Navigating to boards page...","Warmup: Navigated to boards page","Warmup: Creating board: mens curly short haircut","Warmup: Board created","Warmup: Saving pins to board...","Warmup: Pins saved to board","Warmup: Getting recommendations from board...","Warmup: Navigated to more ideas page","Warmup: Pinterest account successfully warmed up!","Warmup: Beginning scraping...","Saved pin: 688b513060e76b7293c13b97","Saved pin: 688b513060e76b7293c13b99","Saved pin: 688b513160e76b7293c13b9b","Saved pin: 688b513160e76b7293c13b9d","Saved pin: 688b513160e76b7293c13b9f","Saved pin: 688b513160e76b7293c13ba1","Saved pin: 688b513160e76b7293c13ba3","Saved pin: 688b513160e76b7293c13ba5","Saved pin: 688b513160e76b7293c13ba7","Saved pin: 688b513160e76b7293c13ba9","Saved pin: 688b513160e76b7293c13bab","Saved pin: 688b513160e76b7293c13bad","Saved pin: 688b513160e76b7293c13baf","Saved pin: 688b513160e76b7293c13bb1","Saved pin: 688b513160e76b7293c13bb3","Saved pin: 688b513160e76b7293c13bb5","Saved pin: 688b513160e76b7293c13bb7","Saved pin: 688b513160e76b7293c13bb9","Saved pin: 688b513260e76b7293c13bbb","Saved pin: 688b513260e76b7293c13bbd","Saved pin: 688b513260e76b7293c13bbf","Saved pin: 688b513260e76b7293c13bc1","Saved pin: 688b513260e76b7293c13bc3","Saved pin: 688b513260e76b7293c13bc5","Saved pin: 688b513260e76b7293c13bc7","Saved pin: 688b513260e76b7293c13bc9","Saved pin: 688b513260e76b7293c13bcb","Saved pin: 688b513260e76b7293c13bcd","Pin 688b513060e76b7293c13b97 approved: 0.7, {'object_score': 0.8, 'style_score': 0.6, 'explanation': 'Hair is curly but longer than typical short styles.'}","Pin 688b513060e76b7293c13b99 approved: 0.75, {'object_score': 0.8, 'style_score': 0.7, 'explanation': 'Hair is curly but longer than typical short styles.'}","Pin 688b513160e76b7293c13b9b approved: 0.8500000000000001, {'object_score': 0.9, 'style_score': 0.8, 'explanation': 'Image closely matches the prompt for curly short haircut style.'}","Pin 688b513160e76b7293c13b9d approved: 0.8500000000000001, {'object_score': 0.9, 'style_score': 0.8, 'explanation': 'Image closely matches the prompt for curly short haircut and style.'}","Pin 688b513160e76b7293c13b9f disqualified: 0.4, {'object_score': 0.0, 'style_score': 0.8, 'explanation': \"Image style matches short, but not a men's curly haircut.\"}","Pin 688b513160e76b7293c13ba1 approved: 1.0, {'object_score': 1.0, 'style_score': 1.0, 'explanation': \"The image perfectly depicts a short, curly men's haircut.\"}","Pin 688b513160e76b7293c13ba3 approved: 0.8500000000000001, {'object_score': 0.9, 'style_score': 0.8, 'explanation': 'The haircut is short and curly, matching the prompt well.'}","Pin 688b513160e76b7293c13ba5 approved: 0.875, {'object_score': 0.9, 'style_score': 0.85, 'explanation': 'Image effectively displays a short curly haircut for men.'}","Pin 688b513160e76b7293c13ba7 approved: 0.5, {'object_score': 0.3, 'style_score': 0.7, 'explanation': 'Image shows short styles, but lacks focus on curly hair.'}","Pin 688b513160e76b7293c13ba9 approved: 0.55, {'object_score': 0.3, 'style_score': 0.8, 'explanation': 'Image shows a short haircut, but lacks curly texture.'}","Pin 688b513160e76b7293c13bab approved: 0.75, {'object_score': 0.8, 'style_score': 0.7, 'explanation': 'Hair is curly and short, but slightly longer than typical short styles.'}","Pin 688b513160e76b7293c13bad approved: 0.6, {'object_score': 0.7, 'style_score': 0.5, 'explanation': 'Haircut is medium, not short; curls are present.'}","Pin 688b513160e76b7293c13baf approved: 0.8500000000000001, {'object_score': 0.9, 'style_score': 0.8, 'explanation': 'Image closely matches the prompt with a stylish short curly haircut.'}","Pin 688b513160e76b7293c13bb1 approved: 0.8500000000000001, {'object_score': 0.9, 'style_score': 0.8, 'explanation': 'The haircut is short and curly, fitting the prompt well.'}","Pin 688b513160e76b7293c13bb3 disqualified: 0.0, {'object_score': 0.0, 'style_score': 0.0, 'explanation': \"Image does not match prompt for men's curly short haircut.\"}","Pin 688b513160e76b7293c13bb5 approved: 0.6, {'object_score': 0.7, 'style_score': 0.5, 'explanation': 'Hair is curly but longer than short; style is medium.'}","Pin 688b513160e76b7293c13bb7 approved: 0.7, {'object_score': 0.8, 'style_score': 0.6, 'explanation': 'Hair is curly but longer than typical short styles.'}","Pin 688b513160e76b7293c13bb9 approved: 0.75, {'object_score': 0.8, 'style_score': 0.7, 'explanation': 'Hair is curly but not distinctly short.'}","Pin 688b513260e76b7293c13bbb approved: 0.8500000000000001, {'object_score': 0.9, 'style_score': 0.8, 'explanation': 'Image closely matches the prompt for both style and object.'}","Pin 688b513260e76b7293c13bbd approved: 0.8500000000000001, {'object_score': 0.9, 'style_score': 0.8, 'explanation': 'Image closely matches the prompt for curly short haircut style.'}","Pin 688b513260e76b7293c13bbf disqualified: 0.4, {'object_score': 0.0, 'style_score': 0.8, 'explanation': \"Image features short hair but is not a men's haircut.\"}","Pin 688b513260e76b7293c13bc1 approved: 0.875, {'object_score': 0.9, 'style_score': 0.85, 'explanation': 'The haircut is short and curly, matching the prompt well.'}","Pin 688b513260e76b7293c13bc3 approved: 0.875, {'object_score': 0.9, 'style_score': 0.85, 'explanation': 'Image closely matches both the style and object phrases.'}","Pin 688b513260e76b7293c13bc5 disqualified: 0.15000000000000002, {'object_score': 0.2, 'style_score': 0.1, 'explanation': 'Image features braids and a bun, not a short curly haircut.'}","Pin 688b513260e76b7293c13bc7 approved: 0.875, {'object_score': 0.9, 'style_score': 0.85, 'explanation': 'The haircut is short and curly, closely matching the prompt.'}","Pin 688b513260e76b7293c13bc9 approved: 0.875, {'object_score': 0.9, 'style_score': 0.85, 'explanation': 'The haircut is short and curly, matching the prompt well.'}","Pin 688b513260e76b7293c13bcb approved: 0.75, {'object_score': 0.8, 'style_score': 0.7, 'explanation': 'Hair is curly and short, but style could be clearer.'}","Pin 688b513260e76b7293c13bcd approved: 0.8500000000000001, {'object_score': 0.9, 'style_score': 0.8, 'explanation': 'The haircut is curly and short, matching the prompt well.'}"]
+        },
+        {"pins":
+        [
+            {
+                "_id": "688b513060e76b7293c13b97",
+                "id": "688b513060e76b7293c13b96",
+                "prompt_id": "688b50e0cdc14f7c5aa8b1cb",
+                "image_url": "https://i.pinimg.com/236x/00/76/a0/0076a0c082eccb97566d7099498936b7.jpg",
+                "pin_url": "https://www.pinterest.com/pin/39125090501261313/",
+                "title": "",
+                "description": "This contains an image of: How to Make Your Curly Beard Straight with Pro Straightening Tips",
+                "match_score": 0.7,
+                "status": "approved",
+                "ai_explanation": "Hair is curly but longer than typical short styles.",
+                "metadata": {
+                "collected_at": "2025-07-31 11:19:12.903000"
+                }
+            },
+            {
+                "_id": "688b513060e76b7293c13b99",
+                "id": "688b513060e76b7293c13b98",
+                "prompt_id": "688b50e0cdc14f7c5aa8b1cb",
+                "image_url": "https://i.pinimg.com/236x/00/77/04/0077041bee38777b8a115755dc04f09c.jpg",
+                "pin_url": "https://www.pinterest.com/pin/243264817350411585/",
+                "title": "",
+                "description": "This contains an image of: New Arrivals | J.Crew",
+                "match_score": 0.75,
+                "status": "approved",
+                "ai_explanation": "Hair is curly but longer than typical short styles.",
+                "metadata": {
+                "collected_at": "2025-07-31 11:19:12.965000"
+                }
+            },
+            {
+                "_id": "688b513160e76b7293c13b9b",
+                "id": "688b513160e76b7293c13b9a",
+                "prompt_id": "688b50e0cdc14f7c5aa8b1cb",
+                "image_url": "https://i.pinimg.com/236x/02/1d/58/021d585c8e771de6ef3537da64265c98.jpg",
+                "pin_url": "https://www.pinterest.com/pin/160159330478378714/",
+                "title": "",
+                "description": "This contains an image of: 10 Famous Men with Curly Hair",
+                "match_score": 0.8500000000000001,
+                "status": "approved",
+                "ai_explanation": "Image closely matches the prompt for curly short haircut style.",
+                "metadata": {
+                "collected_at": "2025-07-31 11:19:13.018000"
+                }
+            },
+            {
+                "_id": "688b513160e76b7293c13b9d",
+                "id": "688b513160e76b7293c13b9c",
+                "prompt_id": "688b50e0cdc14f7c5aa8b1cb",
+                "image_url": "https://i.pinimg.com/236x/02/b4/0d/02b40da89c8db988c6bb072979404d5f.jpg",
+                "pin_url": "https://www.pinterest.com/pin/39899146689315095/",
+                "title": "Go-Dry Cool Odor-Control Base Layer T-Shirt | Old Navy pin page",
+                "description": "This contains an image of: Go-Dry Cool Odor-Control Base Layer T-Shirt | Old Navy",
+                "match_score": 0.8500000000000001,
+                "status": "approved",
+                "ai_explanation": "Image closely matches the prompt for curly short haircut and style.",
+                "metadata": {
+                "collected_at": "2025-07-31 11:19:13.081000"
+                }
+            },
+            {
+                "_id": "688b513160e76b7293c13b9f",
+                "id": "688b513160e76b7293c13b9e",
+                "prompt_id": "688b50e0cdc14f7c5aa8b1cb",
+                "image_url": "https://i.pinimg.com/236x/03/ad/39/03ad39b6938da6df20b829aa0517f30e.jpg",
+                "pin_url": "https://www.pinterest.com/pin/787285578647996726/",
+                "title": "",
+                "description": "This contains an image of: 20 Short Flippy Hairstyles",
+                "match_score": 0.4,
+                "status": "disqualified",
+                "ai_explanation": "Image style matches short, but not a men's curly haircut.",
+                "metadata": {
+                "collected_at": "2025-07-31 11:19:13.148000"
+                }
+            },
+            {
+                "_id": "688b513160e76b7293c13ba1",
+                "id": "688b513160e76b7293c13ba0",
+                "prompt_id": "688b50e0cdc14f7c5aa8b1cb",
+                "image_url": "https://i.pinimg.com/236x/03/f8/6c/03f86c235f7252b70ee70affcf7350b9.jpg",
+                "pin_url": "https://www.pinterest.com/pin/349732727328783045/",
+                "title": "99 Men\u2019s Haircuts That Will Turn Heads - 2025 pin page",
+                "description": "This contains an image of: 99 Men\u2019s Haircuts That Will Turn Heads - 2025",
+                "match_score": 1.0,
+                "status": "approved",
+                "ai_explanation": "The image perfectly depicts a short, curly men's haircut.",
+                "metadata": {
+                "collected_at": "2025-07-31 11:19:13.202000"
+                }
+            },
+            {
+                "_id": "688b513160e76b7293c13ba3",
+                "id": "688b513160e76b7293c13ba2",
+                "prompt_id": "688b50e0cdc14f7c5aa8b1cb",
+                "image_url": "https://i.pinimg.com/236x/04/8f/09/048f099755224e38c602193c7a4c0886.jpg",
+                "pin_url": "https://www.pinterest.com/pin/678636237627146190/",
+                "title": "20 Snazzy and High-Class Quiff Hairstyle Which Will Make You Crave for Long Hair (on the top of the crown area) pin page",
+                "description": "This contains an image of: 20 Snazzy and High-Class Quiff Hairstyle Which Will Make You Crave for Long Hair (on the top of the crown area)",
+                "match_score": 0.8500000000000001,
+                "status": "approved",
+                "ai_explanation": "The haircut is short and curly, matching the prompt well.",
+                "metadata": {
+                "collected_at": "2025-07-31 11:19:13.259000"
+                }
+            },
+            {
+                "_id": "688b513160e76b7293c13ba5",
+                "id": "688b513160e76b7293c13ba4",
+                "prompt_id": "688b50e0cdc14f7c5aa8b1cb",
+                "image_url": "https://i.pinimg.com/236x/05/d4/0d/05d40d67882557f4bec38286dc98a2d4.jpg",
+                "pin_url": "https://www.pinterest.com/pin/1014224778599529586/",
+                "title": "  pin page",
+                "description": "This contains an image of: ",
+                "match_score": 0.875,
+                "status": "approved",
+                "ai_explanation": "Image effectively displays a short curly haircut for men.",
+                "metadata": {
+                "collected_at": "2025-07-31 11:19:13.317000"
+                }
+            },
+            {
+                "_id": "688b513160e76b7293c13ba7",
+                "id": "688b513160e76b7293c13ba6",
+                "prompt_id": "688b50e0cdc14f7c5aa8b1cb",
+                "image_url": "https://i.pinimg.com/236x/06/63/d0/0663d080234191bdf033bf1a6561bcb1.jpg",
+                "pin_url": "https://www.pinterest.com/pin/996562223818939992/",
+                "title": "16 Faded Beard Styles for a Sharp and Modern Spring Look pin page",
+                "description": "This contains an image of: 16 Faded Beard Styles for a Sharp and Modern Spring Look",
+                "match_score": 0.5,
+                "status": "approved",
+                "ai_explanation": "Image shows short styles, but lacks focus on curly hair.",
+                "metadata": {
+                "collected_at": "2025-07-31 11:19:13.375000"
+                }
+            },
+            {
+                "_id": "688b513160e76b7293c13ba9",
+                "id": "688b513160e76b7293c13ba8",
+                "prompt_id": "688b50e0cdc14f7c5aa8b1cb",
+                "image_url": "https://i.pinimg.com/236x/06/a9/f9/06a9f96c156576047b5338f5cd3f3514.jpg",
+                "pin_url": "https://www.pinterest.com/pin/660129257917917819/",
+                "title": "Aesthetic &amp; Best 25 Caesar Haircuts for Men pin page",
+                "description": "This contains an image of: Aesthetic & Best 25 Caesar Haircuts for Men",
+                "match_score": 0.55,
+                "status": "approved",
+                "ai_explanation": "Image shows a short haircut, but lacks curly texture.",
+                "metadata": {
+                "collected_at": "2025-07-31 11:19:13.441000"
+                }
+            },
+            {
+                "_id": "688b513160e76b7293c13bab",
+                "id": "688b513160e76b7293c13baa",
+                "prompt_id": "688b50e0cdc14f7c5aa8b1cb",
+                "image_url": "https://i.pinimg.com/236x/07/49/6a/07496a18198e704c324b503e73f28c06.jpg",
+                "pin_url": "https://www.pinterest.com/pin/73887250123770616/",
+                "title": "shop.wigsbuy.com-Global Online Shopping for wigsbuy,NEW,Wigs pin page",
+                "description": "This may contain: a man with curly hair and blue shirt smiling in front of a white background,",
+                "match_score": 0.75,
+                "status": "approved",
+                "ai_explanation": "Hair is curly and short, but slightly longer than typical short styles.",
+                "metadata": {
+                "collected_at": "2025-07-31 11:19:13.522000"
+                }
+            },
+            {
+                "_id": "688b513160e76b7293c13bad",
+                "id": "688b513160e76b7293c13bac",
+                "prompt_id": "688b50e0cdc14f7c5aa8b1cb",
+                "image_url": "https://i.pinimg.com/236x/09/92/da/0992da26acbf345ba9de544e5e6efbe4.jpg",
+                "pin_url": "https://www.pinterest.com/pin/614882155412681530/",
+                "title": "50 of the Best Medium Hairstyles for Men (Gallery + Videos Included) pin page",
+                "description": "This contains an image of: 50 of the Best Medium Hairstyles for Men (Gallery + Videos Included)",
+                "match_score": 0.6,
+                "status": "approved",
+                "ai_explanation": "Haircut is medium, not short; curls are present.",
+                "metadata": {
+                "collected_at": "2025-07-31 11:19:13.590000"
+                }
+            },
+            {
+                "_id": "688b513160e76b7293c13baf",
+                "id": "688b513160e76b7293c13bae",
+                "prompt_id": "688b50e0cdc14f7c5aa8b1cb",
+                "image_url": "https://i.pinimg.com/236x/0a/56/7d/0a567d3ba70a3cae9057135020cf8ae7.jpg",
+                "pin_url": "https://www.pinterest.com/pin/690458186642458656/",
+                "title": "Your ultimate Guide for Men&#39;s Hairstyles for Fine hair - Valuxxo pin page",
+                "description": "This contains an image of: Your ultimate Guide for Men's Hairstyles for Fine hair - Valuxxo",
+                "match_score": 0.8500000000000001,
+                "status": "approved",
+                "ai_explanation": "Image closely matches the prompt with a stylish short curly haircut.",
+                "metadata": {
+                "collected_at": "2025-07-31 11:19:13.658000"
+                }
+            },
+            {
+                "_id": "688b513160e76b7293c13bb1",
+                "id": "688b513160e76b7293c13bb0",
+                "prompt_id": "688b50e0cdc14f7c5aa8b1cb",
+                "image_url": "https://i.pinimg.com/236x/0a/be/5a/0abe5ac62a1d0c1ddecef207247913bf.jpg",
+                "pin_url": "https://www.pinterest.com/pin/594756694575653319/",
+                "title": "Short Curly Haircut Inspiration for Men - Pall Mall Barbers pin page",
+                "description": "This contains an image of: Short Curly Haircut Inspiration for Men - Pall Mall Barbers",
+                "match_score": 0.8500000000000001,
+                "status": "approved",
+                "ai_explanation": "The haircut is short and curly, fitting the prompt well.",
+                "metadata": {
+                "collected_at": "2025-07-31 11:19:13.721000"
+                }
+            },
+            {
+                "_id": "688b513160e76b7293c13bb3",
+                "id": "688b513160e76b7293c13bb2",
+                "prompt_id": "688b50e0cdc14f7c5aa8b1cb",
+                "image_url": "https://i.pinimg.com/236x/0d/1e/2e/0d1e2ec55c8f063b743b1a973522d545.jpg",
+                "pin_url": "https://www.pinterest.com/pin/1124914813191923663/",
+                "title": "Hair Tutorials for Natural Hair That Actually Work \ud83d\udd01 #naturalhairtips #hairtutorials2025 #curly pin page",
+                "description": "This contains an image of: Hair Tutorials for Natural Hair That Actually Work \ud83d\udd01 #naturalhairtips #hairtutorials2025 #curly",
+                "match_score": 0.0,
+                "status": "disqualified",
+                "ai_explanation": "Image does not match prompt for men's curly short haircut.",
+                "metadata": {
+                "collected_at": "2025-07-31 11:19:13.775000"
+                }
+            },
+            {
+                "_id": "688b513160e76b7293c13bb5",
+                "id": "688b513160e76b7293c13bb4",
+                "prompt_id": "688b50e0cdc14f7c5aa8b1cb",
+                "image_url": "https://i.pinimg.com/236x/0e/47/92/0e479283188b28936dc3eaa2a3a3118f.jpg",
+                "pin_url": "https://www.pinterest.com/pin/397653842117575397/",
+                "title": "",
+                "description": "This contains: 50 of the Best Medium Hairstyles for Men (Gallery + Videos Included)",
+                "match_score": 0.6,
+                "status": "approved",
+                "ai_explanation": "Hair is curly but longer than short; style is medium.",
+                "metadata": {
+                "collected_at": "2025-07-31 11:19:13.839000"
+                }
+            },
+            {
+                "_id": "688b513160e76b7293c13bb7",
+                "id": "688b513160e76b7293c13bb6",
+                "prompt_id": "688b50e0cdc14f7c5aa8b1cb",
+                "image_url": "https://i.pinimg.com/236x/0e/d5/5b/0ed55b37a10dda66c7f7c574edb7687e.jpg",
+                "pin_url": "https://www.pinterest.com/pin/118852877659379704/",
+                "title": "  pin page",
+                "description": "This contains an image of: ",
+                "match_score": 0.7,
+                "status": "approved",
+                "ai_explanation": "Hair is curly but longer than typical short styles.",
+                "metadata": {
+                "collected_at": "2025-07-31 11:19:13.900000"
+                }
+            },
+            {
+                "_id": "688b513160e76b7293c13bb9",
+                "id": "688b513160e76b7293c13bb8",
+                "prompt_id": "688b50e0cdc14f7c5aa8b1cb",
+                "image_url": "https://i.pinimg.com/236x/0f/07/52/0f0752b6e78b7ec609f22ff5e5e22d57.jpg",
+                "pin_url": "https://www.pinterest.com/pin/357965870400294595/",
+                "title": "Unexplainable pin page",
+                "description": "This contains an image of: Unexplainable",
+                "match_score": 0.75,
+                "status": "approved",
+                "ai_explanation": "Hair is curly but not distinctly short.",
+                "metadata": {
+                "collected_at": "2025-07-31 11:19:13.955000"
+                }
+            },
+            {
+                "_id": "688b513260e76b7293c13bbb",
+                "id": "688b513260e76b7293c13bba",
+                "prompt_id": "688b50e0cdc14f7c5aa8b1cb",
+                "image_url": "https://i.pinimg.com/236x/0f/50/39/0f50397c72f5f562eed384199a6773d1.jpg",
+                "pin_url": "https://www.pinterest.com/pin/1017954322008396028/",
+                "title": "Aesthetic Beast hairstyles for short hair For Men pin page",
+                "description": "This contains an image of: Aesthetic Beast hairstyles for short hair For Men",
+                "match_score": 0.8500000000000001,
+                "status": "approved",
+                "ai_explanation": "Image closely matches the prompt for both style and object.",
+                "metadata": {
+                "collected_at": "2025-07-31 11:19:14.017000"
+                }
+            },
+            {
+                "_id": "688b513260e76b7293c13bbd",
+                "id": "688b513260e76b7293c13bbc",
+                "prompt_id": "688b50e0cdc14f7c5aa8b1cb",
+                "image_url": "https://i.pinimg.com/236x/10/5f/fe/105ffebd682054694e10379ecbf0a1af.jpg",
+                "pin_url": "https://www.pinterest.com/pin/13440498862327073/",
+                "title": "Short hairstyle for wavy men&#39;s hair. pin page",
+                "description": "This contains an image of: ",
+                "match_score": 0.8500000000000001,
+                "status": "approved",
+                "ai_explanation": "Image closely matches the prompt for curly short haircut style.",
+                "metadata": {
+                "collected_at": "2025-07-31 11:19:14.092000"
+                }
+            },
+            {
+                "_id": "688b513260e76b7293c13bbf",
+                "id": "688b513260e76b7293c13bbe",
+                "prompt_id": "688b50e0cdc14f7c5aa8b1cb",
+                "image_url": "https://i.pinimg.com/236x/10/ef/02/10ef023513bd5410a1cb446d2c95e006.jpg",
+                "pin_url": "https://www.pinterest.com/pin/974044225658900324/",
+                "title": "Short and Sleek: Effortlessly Elegant Bangs That Complete Your Look pin page",
+                "description": "This contains an image of: Short and Sleek: Effortlessly Elegant Bangs That Complete Your Look",
+                "match_score": 0.4,
+                "status": "disqualified",
+                "ai_explanation": "Image features short hair but is not a men's haircut.",
+                "metadata": {
+                "collected_at": "2025-07-31 11:19:14.148000"
+                }
+            },
+            {
+                "_id": "688b513260e76b7293c13bc1",
+                "id": "688b513260e76b7293c13bc0",
+                "prompt_id": "688b50e0cdc14f7c5aa8b1cb",
+                "image_url": "https://i.pinimg.com/236x/11/09/37/11093711a1b4f408b4381304c2330349.jpg",
+                "pin_url": "https://www.pinterest.com/pin/16466354880265030/",
+                "title": "The Best Haircuts for Balding Men pin page",
+                "description": "This contains an image of: The Best Haircuts for Balding Men",
+                "match_score": 0.875,
+                "status": "approved",
+                "ai_explanation": "The haircut is short and curly, matching the prompt well.",
+                "metadata": {
+                "collected_at": "2025-07-31 11:19:14.215000"
+                }
+            },
+            {
+                "_id": "688b513260e76b7293c13bc3",
+                "id": "688b513260e76b7293c13bc2",
+                "prompt_id": "688b50e0cdc14f7c5aa8b1cb",
+                "image_url": "https://i.pinimg.com/236x/11/85/1b/11851bfe9f18a75ba6802ce841c1583c.jpg",
+                "pin_url": "https://www.pinterest.com/pin/328903579052269610/",
+                "title": "",
+                "description": "This contains: https://celebrityfashionstyle.com ---famous guys famous boys famous men famous actors male celebrity fashion icons male celebrity outfits iconic male celebrity outfits male celebrities with the best style male celebrity outfits where to buy style icons men's fashion stylish black male celebrities best dressed black male celebrities celebrity fashion men's iconic celebrity outfits men celebrity clothing mens famous outfits from celebrities what celebrities are wearing men celebrity clothing",
+                "match_score": 0.875,
+                "status": "approved",
+                "ai_explanation": "Image closely matches both the style and object phrases.",
+                "metadata": {
+                "collected_at": "2025-07-31 11:19:14.286000"
+                }
+            },
+            {
+                "_id": "688b513260e76b7293c13bc5",
+                "id": "688b513260e76b7293c13bc4",
+                "prompt_id": "688b50e0cdc14f7c5aa8b1cb",
+                "image_url": "https://i.pinimg.com/236x/11/e2/5d/11e25df8b570b227a675373029f3bb14.jpg",
+                "pin_url": "https://www.pinterest.com/pin/1117385357560876528/",
+                "title": "42 Hairstyles Men Long Hair Bun Ideas pin page",
+                "description": "This contains an image of: 42 Hairstyles Men Long Hair Bun Ideas",
+                "match_score": 0.15000000000000002,
+                "status": "disqualified",
+                "ai_explanation": "Image features braids and a bun, not a short curly haircut.",
+                "metadata": {
+                "collected_at": "2025-07-31 11:19:14.348000"
+                }
+            },
+            {
+                "_id": "688b513260e76b7293c13bc7",
+                "id": "688b513260e76b7293c13bc6",
+                "prompt_id": "688b50e0cdc14f7c5aa8b1cb",
+                "image_url": "https://i.pinimg.com/236x/13/0f/f1/130ff1f1c59f28bfcfeed922c626fad1.jpg",
+                "pin_url": "https://www.pinterest.com/pin/127719339428374170/",
+                "title": "Best men\u2019s perm photos 2 | MOMO HAIR by Liz - Toronto pin page",
+                "description": "This contains an image of: Best men\u2019s perm photos 2 | MOMO HAIR by Liz - Toronto",
+                "match_score": 0.875,
+                "status": "approved",
+                "ai_explanation": "The haircut is short and curly, closely matching the prompt.",
+                "metadata": {
+                "collected_at": "2025-07-31 11:19:14.413000"
+                }
+            },
+            {
+                "_id": "688b513260e76b7293c13bc9",
+                "id": "688b513260e76b7293c13bc8",
+                "prompt_id": "688b50e0cdc14f7c5aa8b1cb",
+                "image_url": "https://i.pinimg.com/236x/14/14/10/141410aa2cf2cc132455337c410cf943.jpg",
+                "pin_url": "https://www.pinterest.com/pin/358388082858232443/",
+                "title": "100 Modern Men\u2019s Hairstyles for Curly Hair pin page",
+                "description": "This contains an image of: 100 Modern Men\u2019s Hairstyles for Curly Hair",
+                "match_score": 0.875,
+                "status": "approved",
+                "ai_explanation": "The haircut is short and curly, matching the prompt well.",
+                "metadata": {
+                "collected_at": "2025-07-31 11:19:14.475000"
+                }
+            },
+            {
+                "_id": "688b513260e76b7293c13bcb",
+                "id": "688b513260e76b7293c13bca",
+                "prompt_id": "688b50e0cdc14f7c5aa8b1cb",
+                "image_url": "https://i.pinimg.com/236x/14/de/f7/14def7c94ed4a3f5b55520fcc7393cec.jpg",
+                "pin_url": "https://www.pinterest.com/pin/386394843050530963/",
+                "title": "50 of the Best Medium Hairstyles for Men (Gallery + Videos Included) pin page",
+                "description": "This contains an image of: 50 of the Best Medium Hairstyles for Men (Gallery + Videos Included)",
+                "match_score": 0.75,
+                "status": "approved",
+                "ai_explanation": "Hair is curly and short, but style could be clearer.",
+                "metadata": {
+                "collected_at": "2025-07-31 11:19:14.532000"
+                }
+            },
+            {
+                "_id": "688b513260e76b7293c13bcd",
+                "id": "688b513260e76b7293c13bcc",
+                "prompt_id": "688b50e0cdc14f7c5aa8b1cb",
+                "image_url": "https://i.pinimg.com/236x/14/ef/b5/14efb5d21c7405aa7fa6bcd177c0e4e5.jpg",
+                "pin_url": "https://www.pinterest.com/pin/728246202235875073/",
+                "title": "Best Short Haircuts for Men \u2013 Short Hairstyles for Men pin page",
+                "description": "This contains an image of: Best Short Haircuts for Men \u2013 Short Hairstyles for Men",
+                "match_score": 0.8500000000000001,
+                "status": "approved",
+                "ai_explanation": "The haircut is curly and short, matching the prompt well.",
+                "metadata": {
+                "collected_at": "2025-07-31 11:19:14.593000"
+                }
+            }
+              
+            ]
+        }
+    ]
+}

@@ -1,0 +1,438 @@
+{
+    "prompt": "cottagecore dresses",
+    "collections": [
+        {
+            "_id": {"$oid": "688b4d9454255abb05224eac"},
+            "text": "cottagecore dresses",
+            "status": "completed",
+            "created_at": {"$date": {"$numberLong": "1753959828768"}}
+        },
+        {
+            "_id":{"$oid":"688b4d9554255abb05224eae"},"id":"688b4d9554255abb05224ead","prompt_id":"688b4d9454255abb05224eac","stage":"validation","status":"completed","timestamp":{"$date":{"$numberLong":"1753959829417"}},"log":["Warmup: Warmup started for cottagecore dresses!","Warmup: Getting Pinterest account info...","Warmup: Browser started","Warmup: Proxy configured","Warmup: Browser context created","Warmup: Configuring browser...","Warmup: Browser configured","Warmup: Navigating to Pinterest...","Warmup: Navigated to Pinterest","Warmup: Waiting for page to fully load...","Warmup: Not logged in, attempting login...","Warmup: Login successful","Warmup: Navigating to boards page...","Warmup: Navigated to boards page","Warmup: Creating board: cottagecore dresses","Warmup: Board created","Warmup: Saving pins to board...","Warmup: Pins saved to board","Warmup: Getting recommendations from board...","Warmup: Navigated to more ideas page","Warmup: Pinterest account successfully warmed up!","Warmup: Beginning scraping...","Saved pin: 688b4def2a8984146cc90ef0","Saved pin: 688b4def2a8984146cc90ef2","Saved pin: 688b4def2a8984146cc90ef4","Saved pin: 688b4def2a8984146cc90ef6","Saved pin: 688b4def2a8984146cc90ef8","Saved pin: 688b4def2a8984146cc90efa","Saved pin: 688b4def2a8984146cc90efc","Saved pin: 688b4def2a8984146cc90efe","Saved pin: 688b4def2a8984146cc90f00","Saved pin: 688b4def2a8984146cc90f02","Saved pin: 688b4def2a8984146cc90f04","Saved pin: 688b4def2a8984146cc90f06","Saved pin: 688b4def2a8984146cc90f08","Saved pin: 688b4def2a8984146cc90f0a","Saved pin: 688b4def2a8984146cc90f0c","Saved pin: 688b4def2a8984146cc90f0e","Saved pin: 688b4df02a8984146cc90f10","Saved pin: 688b4df02a8984146cc90f12","Saved pin: 688b4df02a8984146cc90f14","Saved pin: 688b4df02a8984146cc90f16","Saved pin: 688b4df02a8984146cc90f18","Saved pin: 688b4df02a8984146cc90f1a","Saved pin: 688b4df02a8984146cc90f1c","Saved pin: 688b4df02a8984146cc90f1e","Saved pin: 688b4df02a8984146cc90f20","Saved pin: 688b4df02a8984146cc90f22","Saved pin: 688b4df02a8984146cc90f24","Saved pin: 688b4df02a8984146cc90f26","Pin 688b4def2a8984146cc90ef0 approved: 0.6499999999999999, {'object_score': 0.7, 'style_score': 0.6, 'explanation': 'The dress has cottagecore elements but lacks typical floral patterns.'}","Pin 688b4def2a8984146cc90ef2 approved: 1.0, {'object_score': 1.0, 'style_score': 1.0, 'explanation': 'The image perfectly embodies the cottagecore aesthetic with its dress and setting.'}","Pin 688b4def2a8984146cc90ef4 approved: 1.0, {'object_score': 1.0, 'style_score': 1.0, 'explanation': 'The dress perfectly embodies the cottagecore aesthetic and style.'}","Pin 688b4def2a8984146cc90ef6 approved: 1.0, {'object_score': 1.0, 'style_score': 1.0, 'explanation': 'The dress perfectly embodies the cottagecore aesthetic with floral patterns and vintage style.'}","Pin 688b4def2a8984146cc90ef8 approved: 0.75, {'object_score': 0.7, 'style_score': 0.8, 'explanation': 'The image captures a cottagecore aesthetic but features pants instead of dresses.'}","Pin 688b4def2a8984146cc90efa approved: 0.775, {'object_score': 0.8, 'style_score': 0.75, 'explanation': 'The dress embodies cottagecore aesthetics but lacks rustic elements.'}","Pin 688b4def2a8984146cc90efc approved: 1.0, {'object_score': 1.0, 'style_score': 1.0, 'explanation': 'The dress perfectly embodies the cottagecore aesthetic with its floral design and style.'}","Pin 688b4def2a8984146cc90efe approved: 1.0, {'object_score': 1.0, 'style_score': 1.0, 'explanation': 'The image perfectly embodies the cottagecore aesthetic and dress style.'}","Pin 688b4def2a8984146cc90f00 disqualified: 0.1, {'object_score': 0.0, 'style_score': 0.2, 'explanation': 'Image does not depict dresses; only footwear is shown.'}","Pin 688b4def2a8984146cc90f02 approved: 0.775, {'object_score': 0.8, 'style_score': 0.75, 'explanation': 'The dress reflects cottagecore style, but the setting is less traditional.'}","Pin 688b4def2a8984146cc90f04 approved: 0.875, {'object_score': 0.9, 'style_score': 0.85, 'explanation': 'The dress and setting strongly evoke cottagecore aesthetics.'}","Pin 688b4def2a8984146cc90f06 approved: 1.0, {'object_score': 1.0, 'style_score': 1.0, 'explanation': 'The dress perfectly embodies the cottagecore aesthetic and style.'}","Pin 688b4def2a8984146cc90f08 disqualified: 0.0, {'object_score': 0.0, 'style_score': 0.0, 'explanation': 'Image does not depict cottagecore dresses; it shows shoes instead.'}","Pin 688b4def2a8984146cc90f0a approved: 0.825, {'object_score': 0.8, 'style_score': 0.85, 'explanation': 'The image closely aligns with cottagecore style and features a relevant object.'}","Pin 688b4def2a8984146cc90f0c approved: 0.825, {'object_score': 0.8, 'style_score': 0.85, 'explanation': 'The dresses reflect cottagecore aesthetics, but are illustrations, not real garments.'}","Pin 688b4def2a8984146cc90f0e approved: 1.0, {'object_score': 1.0, 'style_score': 1.0, 'explanation': 'The dress perfectly embodies the cottagecore aesthetic with floral patterns and soft design.'}","Pin 688b4df02a8984146cc90f10 approved: 1.0, {'object_score': 1.0, 'style_score': 1.0, 'explanation': 'The dress perfectly embodies the cottagecore aesthetic with its floral design.'}","Pin 688b4df02a8984146cc90f12 approved: 0.825, {'object_score': 0.8, 'style_score': 0.85, 'explanation': 'The dress embodies cottagecore aesthetics with floral patterns and a relaxed style.'}","Pin 688b4df02a8984146cc90f14 approved: 0.825, {'object_score': 0.8, 'style_score': 0.85, 'explanation': 'The dress and setting align well with cottagecore aesthetics.'}","Pin 688b4df02a8984146cc90f16 approved: 1.0, {'object_score': 1.0, 'style_score': 1.0, 'explanation': 'The dress perfectly embodies the cottagecore aesthetic with its floral design and style.'}","Pin 688b4df02a8984146cc90f18 approved: 0.775, {'object_score': 0.8, 'style_score': 0.75, 'explanation': 'The dress embodies cottagecore aesthetics, but lacks traditional elements.'}","Pin 688b4df02a8984146cc90f1a approved: 0.875, {'object_score': 0.9, 'style_score': 0.85, 'explanation': 'The dress embodies cottagecore style with its vintage pattern and feminine silhouette.'}","Pin 688b4df02a8984146cc90f1c approved: 0.875, {'object_score': 0.9, 'style_score': 0.85, 'explanation': 'The dress and setting align well with cottagecore aesthetics.'}","Pin 688b4df02a8984146cc90f1e approved: 1.0, {'object_score': 1.0, 'style_score': 1.0, 'explanation': 'Perfectly embodies the cottagecore aesthetic with style and object alignment.'}","Pin 688b4df02a8984146cc90f20 approved: 1.0, {'object_score': 1.0, 'style_score': 1.0, 'explanation': 'The dress perfectly embodies the cottagecore aesthetic with floral patterns and flowing design.'}","Pin 688b4df02a8984146cc90f22 approved: 0.6499999999999999, {'object_score': 0.7, 'style_score': 0.6, 'explanation': 'The dress has cottagecore elements but lacks floral patterns typical of the style.'}","Pin 688b4df02a8984146cc90f24 approved: 1.0, {'object_score': 1.0, 'style_score': 1.0, 'explanation': 'Perfectly represents cottagecore style and object with appropriate dresses.'}","Pin 688b4df02a8984146cc90f26 approved: 1.0, {'object_score': 1.0, 'style_score': 1.0, 'explanation': 'The dress perfectly embodies the cottagecore aesthetic with its romantic style.'}"]
+        },
+        {"pins":
+        [
+            {
+              "_id": "688b4def2a8984146cc90ef0",
+              "id": "688b4def2a8984146cc90eef",
+              "prompt_id": "688b4d9454255abb05224eac",
+              "image_url": "https://i.pinimg.com/236x/00/e6/cb/00e6cb04531d83b8c5c585b0fa7e8493.jpg",
+              "pin_url": "https://www.pinterest.com/pin/4608308421589287936/",
+              "title": "",
+              "description": "This contains an image of: Hazel Blues\u00ae | Ruffled Hem Button Down V-Neck Short Sleeve Maxi Dress",
+              "match_score": 0.6499999999999999,
+              "status": "approved",
+              "ai_explanation": "The dress has cottagecore elements but lacks typical floral patterns.",
+              "metadata": {
+                "collected_at": "2025-07-31 11:05:19.082000"
+              }
+            },
+            {
+              "_id": "688b4def2a8984146cc90ef2",
+              "id": "688b4def2a8984146cc90ef1",
+              "prompt_id": "688b4d9454255abb05224eac",
+              "image_url": "https://i.pinimg.com/236x/02/11/77/02117708ee4897f5ea84ff831d564c0a.jpg",
+              "pin_url": "https://www.pinterest.com/pin/86694361567323751/",
+              "title": "Sale pin page",
+              "description": "This contains an image of: Sale",
+              "match_score": 1.0,
+              "status": "approved",
+              "ai_explanation": "The image perfectly embodies the cottagecore aesthetic with its dress and setting.",
+              "metadata": {
+                "collected_at": "2025-07-31 11:05:19.153000"
+              }
+            },
+            {
+              "_id": "688b4def2a8984146cc90ef4",
+              "id": "688b4def2a8984146cc90ef3",
+              "prompt_id": "688b4d9454255abb05224eac",
+              "image_url": "https://i.pinimg.com/236x/02/af/14/02af14443f7fcdfaafa267e203b70477.jpg",
+              "pin_url": "https://www.pinterest.com/pin/132293307797456007/",
+              "title": "The Home Edit: Game On | Moda Operandi pin page",
+              "description": "This contains an image of: The Home Edit: Game On | Moda Operandi",
+              "match_score": 1.0,
+              "status": "approved",
+              "ai_explanation": "The dress perfectly embodies the cottagecore aesthetic and style.",
+              "metadata": {
+                "collected_at": "2025-07-31 11:05:19.205000"
+              }
+            },
+            {
+              "_id": "688b4def2a8984146cc90ef6",
+              "id": "688b4def2a8984146cc90ef5",
+              "prompt_id": "688b4d9454255abb05224eac",
+              "image_url": "https://i.pinimg.com/236x/04/e5/9a/04e59a29bd54eb4738ce36d5af0aaa7f.jpg",
+              "pin_url": "https://www.pinterest.com/pin/338684834503402240/",
+              "title": "House of CB | Womenswear designed in London. pin page",
+              "description": "This contains an image of: House of CB | Womenswear designed in London.",
+              "match_score": 1.0,
+              "status": "approved",
+              "ai_explanation": "The dress perfectly embodies the cottagecore aesthetic with floral patterns and vintage style.",
+              "metadata": {
+                "collected_at": "2025-07-31 11:05:19.261000"
+              }
+            },
+            {
+              "_id": "688b4def2a8984146cc90ef8",
+              "id": "688b4def2a8984146cc90ef7",
+              "prompt_id": "688b4d9454255abb05224eac",
+              "image_url": "https://i.pinimg.com/236x/0a/1b/de/0a1bdefd752a7c8fbb6153c1b8db1e98.jpg",
+              "pin_url": "https://www.pinterest.com/pin/628252216810368603/",
+              "title": "",
+              "description": "This contains an image of: French Lace Ruffle Cottage Pajama Set",
+              "match_score": 0.75,
+              "status": "approved",
+              "ai_explanation": "The image captures a cottagecore aesthetic but features pants instead of dresses.",
+              "metadata": {
+                "collected_at": "2025-07-31 11:05:19.316000"
+              }
+            },
+            {
+              "_id": "688b4def2a8984146cc90efa",
+              "id": "688b4def2a8984146cc90ef9",
+              "prompt_id": "688b4d9454255abb05224eac",
+              "image_url": "https://i.pinimg.com/236x/0a/b7/96/0ab79678b12ad5be9eea9ecd48879a99.jpg",
+              "pin_url": "https://www.pinterest.com/pin/426364289743009394/",
+              "title": "Alycen Eyelet Maxi Dress In Off White pin page",
+              "description": "This contains an image of: Alycen Eyelet Maxi Dress In Off White",
+              "match_score": 0.775,
+              "status": "approved",
+              "ai_explanation": "The dress embodies cottagecore aesthetics but lacks rustic elements.",
+              "metadata": {
+                "collected_at": "2025-07-31 11:05:19.377000"
+              }
+            },
+            {
+              "_id": "688b4def2a8984146cc90efc",
+              "id": "688b4def2a8984146cc90efb",
+              "prompt_id": "688b4d9454255abb05224eac",
+              "image_url": "https://i.pinimg.com/236x/0d/90/f8/0d90f82baaefa45873871f928e61088e.jpg",
+              "pin_url": "https://www.pinterest.com/pin/323555554496268642/",
+              "title": "JS Collections Daphne Embroidered Sequin Column Gown | Nordstrom pin page",
+              "description": "This contains an image of: JS Collections Daphne Embroidered Sequin Column Gown | Nordstrom",
+              "match_score": 1.0,
+              "status": "approved",
+              "ai_explanation": "The dress perfectly embodies the cottagecore aesthetic with its floral design and style.",
+              "metadata": {
+                "collected_at": "2025-07-31 11:05:19.432000"
+              }
+            },
+            {
+              "_id": "688b4def2a8984146cc90efe",
+              "id": "688b4def2a8984146cc90efd",
+              "prompt_id": "688b4d9454255abb05224eac",
+              "image_url": "https://i.pinimg.com/236x/10/1e/48/101e48c9f0d8fe90b56a407062101d9a.jpg",
+              "pin_url": "https://www.pinterest.com/pin/590886413627931784/",
+              "title": "Rue | Flora &amp; Lane pin page",
+              "description": "This may contain: a woman in a dress and hat standing in tall grass",
+              "match_score": 1.0,
+              "status": "approved",
+              "ai_explanation": "The image perfectly embodies the cottagecore aesthetic and dress style.",
+              "metadata": {
+                "collected_at": "2025-07-31 11:05:19.493000"
+              }
+            },
+            {
+              "_id": "688b4def2a8984146cc90f00",
+              "id": "688b4def2a8984146cc90eff",
+              "prompt_id": "688b4d9454255abb05224eac",
+              "image_url": "https://i.pinimg.com/236x/10/a6/ed/10a6ede3167f2fba2ed7dd68acac66d6.jpg",
+              "pin_url": "https://www.pinterest.com/pin/283867582739877583/",
+              "title": "Women&#39;s Shoes, Heels, Boots | Modcloth pin page",
+              "description": "This contains an image of: Women's Shoes, Heels, Boots | Modcloth",
+              "match_score": 0.1,
+              "status": "disqualified",
+              "ai_explanation": "Image does not depict dresses; only footwear is shown.",
+              "metadata": {
+                "collected_at": "2025-07-31 11:05:19.547000"
+              }
+            },
+            {
+              "_id": "688b4def2a8984146cc90f02",
+              "id": "688b4def2a8984146cc90f01",
+              "prompt_id": "688b4d9454255abb05224eac",
+              "image_url": "https://i.pinimg.com/236x/11/5d/dd/115ddd9e4c4741275cdffb75b65b7215.jpg",
+              "pin_url": "https://www.pinterest.com/pin/142778250679814478/",
+              "title": "Dresses pin page",
+              "description": "This may contain: a woman in a white dress is holding her arms up and posing for the camera",
+              "match_score": 0.775,
+              "status": "approved",
+              "ai_explanation": "The dress reflects cottagecore style, but the setting is less traditional.",
+              "metadata": {
+                "collected_at": "2025-07-31 11:05:19.597000"
+              }
+            },
+            {
+              "_id": "688b4def2a8984146cc90f04",
+              "id": "688b4def2a8984146cc90f03",
+              "prompt_id": "688b4d9454255abb05224eac",
+              "image_url": "https://i.pinimg.com/236x/14/78/34/1478345b9458095f7d8e67b56469dc7e.jpg",
+              "pin_url": "https://www.pinterest.com/pin/967288826217073556/",
+              "title": "\u2728 The country-style dress you love is finally available in sizes 36 to 46! \ud83c\udf3f Let yourself be charmed by its vintage appeal and unmatched comfort. Perfect for a scenic walk or a day outdoors, this light and elegant dress is ready to join your wardrobe. Don&#39;t miss the chance to treat yourself to a unique piece that combines style and authenticity. \ud83d\udc9a #NewCollection #VintageDress #AvailableNow #CountryStyle #WomensFashion #cottagecoreaesthetic #cottagecoredress #handmadeclothing #rusticstyle #n... pin page",
+              "description": "This contains an image of: ",
+              "match_score": 0.875,
+              "status": "approved",
+              "ai_explanation": "The dress and setting strongly evoke cottagecore aesthetics.",
+              "metadata": {
+                "collected_at": "2025-07-31 11:05:19.649000"
+              }
+            },
+            {
+              "_id": "688b4def2a8984146cc90f06",
+              "id": "688b4def2a8984146cc90f05",
+              "prompt_id": "688b4d9454255abb05224eac",
+              "image_url": "https://i.pinimg.com/236x/15/07/74/15077431de6eefdbf640f5ee84f397d2.jpg",
+              "pin_url": "https://www.pinterest.com/pin/321585229662020425/",
+              "title": "Women&#39;s Linen Dress Katie - Customized Length - Etsy pin page",
+              "description": "This contains an image of: Women's Linen Dress Katie - Customized Length - Etsy",
+              "match_score": 1.0,
+              "status": "approved",
+              "ai_explanation": "The dress perfectly embodies the cottagecore aesthetic and style.",
+              "metadata": {
+                "collected_at": "2025-07-31 11:05:19.723000"
+              }
+            },
+            {
+              "_id": "688b4def2a8984146cc90f08",
+              "id": "688b4def2a8984146cc90f07",
+              "prompt_id": "688b4d9454255abb05224eac",
+              "image_url": "https://i.pinimg.com/236x/16/2d/bc/162dbce98f371427a659d9d0a4f939a5.jpg",
+              "pin_url": "https://www.pinterest.com/pin/928656385665720805/",
+              "title": "Journee Okenna Mary Jane Pump - Free Shipping | DSW pin page",
+              "description": "This contains an image of: Journee Okenna Mary Jane Pump - Free Shipping | DSW",
+              "match_score": 0.0,
+              "status": "disqualified",
+              "ai_explanation": "Image does not depict cottagecore dresses; it shows shoes instead.",
+              "metadata": {
+                "collected_at": "2025-07-31 11:05:19.782000"
+              }
+            },
+            {
+              "_id": "688b4def2a8984146cc90f0a",
+              "id": "688b4def2a8984146cc90f09",
+              "prompt_id": "688b4d9454255abb05224eac",
+              "image_url": "https://i.pinimg.com/236x/17/38/09/173809ab2da054284d757bd59a76e9eb.jpg",
+              "pin_url": "https://www.pinterest.com/pin/156570524533283981/",
+              "title": "NASHALYLY Women&#39;s Chiffon Elastic High Waist Pleated A-Line Flared Maxi Skirts pin page",
+              "description": "This contains an image of: NASHALYLY Women's Chiffon Elastic High Waist Pleated A-Line Flared Maxi Skirts",
+              "match_score": 0.825,
+              "status": "approved",
+              "ai_explanation": "The image closely aligns with cottagecore style and features a relevant object.",
+              "metadata": {
+                "collected_at": "2025-07-31 11:05:19.834000"
+              }
+            },
+            {
+              "_id": "688b4def2a8984146cc90f0c",
+              "id": "688b4def2a8984146cc90f0b",
+              "prompt_id": "688b4d9454255abb05224eac",
+              "image_url": "https://i.pinimg.com/236x/17/ed/e9/17ede9989dc3331769a2404622c16802.jpg",
+              "pin_url": "https://www.pinterest.com/pin/614811786669823573/",
+              "title": "Laura Ashley Sewing Patterns pin page",
+              "description": "This may contain: three women in dresses are standing next to each other, one is wearing a hat and the other has a purse",
+              "match_score": 0.825,
+              "status": "approved",
+              "ai_explanation": "The dresses reflect cottagecore aesthetics, but are illustrations, not real garments.",
+              "metadata": {
+                "collected_at": "2025-07-31 11:05:19.895000"
+              }
+            },
+            {
+              "_id": "688b4def2a8984146cc90f0e",
+              "id": "688b4def2a8984146cc90f0d",
+              "prompt_id": "688b4d9454255abb05224eac",
+              "image_url": "https://i.pinimg.com/236x/18/20/f6/1820f68a8bcef8171b313d7ba45afe3a.jpg",
+              "pin_url": "https://www.pinterest.com/pin/628252216803916712/",
+              "title": "Floral Ruffle Lounge Pajamas Nightgown Dress / Beige - Beige / Medium/Large pin page",
+              "description": "This contains an image of: Floral Ruffle Lounge Pajamas Nightgown Dress / Beige - Beige / Medium/Large",
+              "match_score": 1.0,
+              "status": "approved",
+              "ai_explanation": "The dress perfectly embodies the cottagecore aesthetic with floral patterns and soft design.",
+              "metadata": {
+                "collected_at": "2025-07-31 11:05:19.962000"
+              }
+            },
+            {
+              "_id": "688b4df02a8984146cc90f10",
+              "id": "688b4df02a8984146cc90f0f",
+              "prompt_id": "688b4d9454255abb05224eac",
+              "image_url": "https://i.pinimg.com/236x/1a/5d/72/1a5d728dabedeccd37023973179c2e10.jpg",
+              "pin_url": "https://www.pinterest.com/pin/137289488898175213/",
+              "title": "Allegra K Women&#39;s Cottagecore Floral Square Neck Puff Sleeves Summer Midi Smocked Dress X-Small Orange pin page",
+              "description": "This contains an image of: Allegra K Women's Cottagecore Floral Square Neck Puff Sleeves Summer Midi Smocked Dress X-Small Orange",
+              "match_score": 1.0,
+              "status": "approved",
+              "ai_explanation": "The dress perfectly embodies the cottagecore aesthetic with its floral design.",
+              "metadata": {
+                "collected_at": "2025-07-31 11:05:20.022000"
+              }
+            },
+            {
+              "_id": "688b4df02a8984146cc90f12",
+              "id": "688b4df02a8984146cc90f11",
+              "prompt_id": "688b4d9454255abb05224eac",
+              "image_url": "https://i.pinimg.com/236x/1a/b7/12/1ab7123361d4c2aab552451c1b9955b9.jpg",
+              "pin_url": "https://www.pinterest.com/pin/14988611249862048/",
+              "title": "Mini Dresses - Shop Cute Short Dresses Online pin page",
+              "description": "This may contain: a woman in a green dress leaning on a counter with her purse and handbag",
+              "match_score": 0.825,
+              "status": "approved",
+              "ai_explanation": "The dress embodies cottagecore aesthetics with floral patterns and a relaxed style.",
+              "metadata": {
+                "collected_at": "2025-07-31 11:05:20.083000"
+              }
+            },
+            {
+              "_id": "688b4df02a8984146cc90f14",
+              "id": "688b4df02a8984146cc90f13",
+              "prompt_id": "688b4d9454255abb05224eac",
+              "image_url": "https://i.pinimg.com/236x/1b/1d/53/1b1d538bfdf6d745dce439344e72241c.jpg",
+              "pin_url": "https://www.pinterest.com/pin/886083295445184316/",
+              "title": "ame: Fabiana pickhardt lemos \n\ud83c\udde7\ud83c\uddf7 Brazilian nationality \n\ud83c\udf03City: Guarulhos /SP pin page",
+              "description": "This may contain: a woman in a white dress and straw hat is sitting on the ground near a tree",
+              "match_score": 0.825,
+              "status": "approved",
+              "ai_explanation": "The dress and setting align well with cottagecore aesthetics.",
+              "metadata": {
+                "collected_at": "2025-07-31 11:05:20.153000"
+              }
+            },
+            {
+              "_id": "688b4df02a8984146cc90f16",
+              "id": "688b4df02a8984146cc90f15",
+              "prompt_id": "688b4d9454255abb05224eac",
+              "image_url": "https://i.pinimg.com/236x/1c/99/08/1c99083b34171a85c5fc4c03ba137999.jpg",
+              "pin_url": "https://www.pinterest.com/pin/814166438882972520/",
+              "title": "MERMAID&#39;S CLOSET Women&#39;s Casual Off Shoulder Lace Maxi Dress Boho White Bridesmaid Wedding Evening Party Dresses pin page",
+              "description": "This contains an image of: MERMAID'S CLOSET Women's Casual Off Shoulder Lace Maxi Dress Boho White Bridesmaid Wedding Evening Party Dresses",
+              "match_score": 1.0,
+              "status": "approved",
+              "ai_explanation": "The dress perfectly embodies the cottagecore aesthetic with its floral design and style.",
+              "metadata": {
+                "collected_at": "2025-07-31 11:05:20.224000"
+              }
+            },
+            {
+              "_id": "688b4df02a8984146cc90f18",
+              "id": "688b4df02a8984146cc90f17",
+              "prompt_id": "688b4d9454255abb05224eac",
+              "image_url": "https://i.pinimg.com/236x/1d/7d/01/1d7d01df78e5a8b79c0e0437fcee7c97.jpg",
+              "pin_url": "https://www.pinterest.com/pin/695735842446523870/",
+              "title": "  pin page",
+              "description": "This contains an image of: ",
+              "match_score": 0.775,
+              "status": "approved",
+              "ai_explanation": "The dress embodies cottagecore aesthetics, but lacks traditional elements.",
+              "metadata": {
+                "collected_at": "2025-07-31 11:05:20.279000"
+              }
+            },
+            {
+              "_id": "688b4df02a8984146cc90f1a",
+              "id": "688b4df02a8984146cc90f19",
+              "prompt_id": "688b4d9454255abb05224eac",
+              "image_url": "https://i.pinimg.com/236x/1e/63/78/1e6378ba08a62a82cdc500f24334a4d2.jpg",
+              "pin_url": "https://www.pinterest.com/pin/64387469665686824/",
+              "title": "The Peregrine Midi Dress pin page",
+              "description": "This contains an image of: The Peregrine Midi Dress",
+              "match_score": 0.875,
+              "status": "approved",
+              "ai_explanation": "The dress embodies cottagecore style with its vintage pattern and feminine silhouette.",
+              "metadata": {
+                "collected_at": "2025-07-31 11:05:20.340000"
+              }
+            },
+            {
+              "_id": "688b4df02a8984146cc90f1c",
+              "id": "688b4df02a8984146cc90f1b",
+              "prompt_id": "688b4d9454255abb05224eac",
+              "image_url": "https://i.pinimg.com/236x/1f/17/55/1f17557ad1c77688683845900e737d4b.jpg",
+              "pin_url": "https://www.pinterest.com/pin/736971926548869970/",
+              "title": "NANCY Dress Vintage 50s Style Custom Made All Size - Etsy pin page",
+              "description": "This contains an image of: NANCY Dress Vintage 50s Style Custom Made All Size - Etsy",
+              "match_score": 0.875,
+              "status": "approved",
+              "ai_explanation": "The dress and setting align well with cottagecore aesthetics.",
+              "metadata": {
+                "collected_at": "2025-07-31 11:05:20.400000"
+              }
+            },
+            {
+              "_id": "688b4df02a8984146cc90f1e",
+              "id": "688b4df02a8984146cc90f1d",
+              "prompt_id": "688b4d9454255abb05224eac",
+              "image_url": "https://i.pinimg.com/236x/b8/69/7b/b8697bb0d1c3f8ef88aa9a75de7a3914.jpg",
+              "pin_url": "https://www.pinterest.com/pin/594827063298561021/",
+              "title": "Victorian Medieval Renaissance Dress US Women&#39;s Halloween Gothic Costume Dress  | eBay pin page",
+              "description": "This contains an image of: Victorian Medieval Renaissance Dress US Women's Halloween Gothic Costume Dress  | eBay",
+              "match_score": 1.0,
+              "status": "approved",
+              "ai_explanation": "Perfectly embodies the cottagecore aesthetic with style and object alignment.",
+              "metadata": {
+                "collected_at": "2025-07-31 11:05:20.465000"
+              }
+            },
+            {
+              "_id": "688b4df02a8984146cc90f20",
+              "id": "688b4df02a8984146cc90f1f",
+              "prompt_id": "688b4d9454255abb05224eac",
+              "image_url": "https://i.pinimg.com/236x/22/78/e3/2278e3cc4006f6b522d8ee414b10c309.jpg",
+              "pin_url": "https://www.pinterest.com/pin/816136763723131647/",
+              "title": "Dresses pin page",
+              "description": "This contains an image of: Dresses",
+              "match_score": 1.0,
+              "status": "approved",
+              "ai_explanation": "The dress perfectly embodies the cottagecore aesthetic with floral patterns and flowing design.",
+              "metadata": {
+                "collected_at": "2025-07-31 11:05:20.553000"
+              }
+            },
+            {
+              "_id": "688b4df02a8984146cc90f22",
+              "id": "688b4df02a8984146cc90f21",
+              "prompt_id": "688b4d9454255abb05224eac",
+              "image_url": "https://i.pinimg.com/236x/98/0a/7f/980a7f85bfbf079ff3065333945456aa.jpg",
+              "pin_url": "https://www.pinterest.com/pin/636766834814643655/",
+              "title": "Your Sewing Pattern Destination pin page",
+              "description": "This may contain: a woman in a blue dress posing for the camera with her hands on her hips",
+              "match_score": 0.6499999999999999,
+              "status": "approved",
+              "ai_explanation": "The dress has cottagecore elements but lacks floral patterns typical of the style.",
+              "metadata": {
+                "collected_at": "2025-07-31 11:05:20.634000"
+              }
+            },
+            {
+              "_id": "688b4df02a8984146cc90f24",
+              "id": "688b4df02a8984146cc90f23",
+              "prompt_id": "688b4d9454255abb05224eac",
+              "image_url": "https://i.pinimg.com/236x/23/65/9d/23659d6110adcae67b6d83c2fed0c8a3.jpg",
+              "pin_url": "https://www.pinterest.com/pin/628252216809467881/",
+              "title": "Cottage Ruffle Lace Nightgown Dress / Blue pin page",
+              "description": "This contains an image of: Cottage Ruffle Lace Nightgown Dress / Blue",
+              "match_score": 1.0,
+              "status": "approved",
+              "ai_explanation": "Perfectly represents cottagecore style and object with appropriate dresses.",
+              "metadata": {
+                "collected_at": "2025-07-31 11:05:20.700000"
+              }
+            },
+            {
+              "_id": "688b4df02a8984146cc90f26",
+              "id": "688b4df02a8984146cc90f25",
+              "prompt_id": "688b4d9454255abb05224eac",
+              "image_url": "https://i.pinimg.com/236x/23/b2/1e/23b21ee494bdafc58daa68dab0410be8.jpg",
+              "pin_url": "https://www.pinterest.com/pin/396668679697330036/",
+              "title": "Santa Maria Maxi Dress pin page",
+              "description": "This contains an image of: Santa Maria Maxi Dress",
+              "match_score": 1.0,
+              "status": "approved",
+              "ai_explanation": "The dress perfectly embodies the cottagecore aesthetic with its romantic style.",
+              "metadata": {
+                "collected_at": "2025-07-31 11:05:20.766000"
+              }
+            }
+          ]
+        }
+    ]
+}
