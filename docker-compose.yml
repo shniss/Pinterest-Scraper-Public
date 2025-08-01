@@ -1,0 +1,131 @@
+services:
+  # Redis - Message broker for Celery
+  redis:
+    image: redis:7-alpine
+    container_name: pinterest-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # MongoDB - Database
+  #storing the login credentials here is insecure, TODO fix this with secrets manager
+  mongodb:
+    image: mongo:7
+    container_name: pinterest-mongodb
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: admin
+      MONGO_INITDB_ROOT_PASSWORD: password123
+      MONGO_INITDB_DATABASE: pinterest_agent
+    volumes:
+      - mongodb_data:/data/db
+      - ./deployment/init-mongo.js:/docker-entrypoint-initdb.d/init-mongo.js:ro
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "mongosh", "--eval", "db.adminCommand('ping')"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # Backend API
+  backend:
+    build:
+      context: .
+      dockerfile: deployment/backend.Dockerfile
+    container_name: pinterest-backend
+    ports:
+      - "8000:8000"
+    environment:
+      - MONGO_URI=mongodb://admin:password123@mongodb:27017/pinterest_agent?authSource=admin
+      - REDIS_URL=redis://redis:6379
+      - CORS_ORIGINS=http://localhost,http://localhost:80,http://localhost:3000,http://localhost:*
+    depends_on:
+      redis:
+        condition: service_healthy
+      mongodb:
+        condition: service_healthy
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # Celery Worker
+  worker:
+    build:
+      context: .
+      dockerfile: deployment/backend.Dockerfile
+    container_name: pinterest-worker
+    command: celery -A app.services.celery_app worker --loglevel=info
+    env_file:
+      - deployment/.env.backend
+    environment:
+      - MONGO_URI=mongodb://admin:password123@mongodb:27017/pinterest_agent?authSource=admin
+      - REDIS_URL=redis://redis:6379
+    depends_on:
+      redis:
+        condition: service_healthy
+      mongodb:
+        condition: service_healthy
+      backend:
+        condition: service_healthy
+    restart: unless-stopped
+    volumes:
+      - ./debug_screenshots:/app/debug_screenshots
+    deploy:
+      resources:
+        limits:
+          memory: 4G
+          cpus: '2.0'
+        reservations:
+          memory: 2G
+          cpus: '1.0'
+
+  # Frontend
+  frontend:
+    build:
+      context: frontend
+      dockerfile: ../deployment/frontend.Dockerfile
+      args:
+        NEXT_PUBLIC_API_URL: http://localhost:8000
+    container_name: pinterest-frontend
+    ports:
+      - "80:80"
+    env_file:
+      - deployment/.env.frontend
+    depends_on:
+      backend:
+        condition: service_healthy
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:80"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # Seed Service (one-shot)
+  seed:
+    build:
+      context: .
+      dockerfile: deployment/backend.Dockerfile
+    container_name: pinterest-seed
+    command: python deployment/seed_pinterest_accounts.py
+    environment:
+      - MONGO_URI=mongodb://admin:password123@mongodb:27017/pinterest_agent?authSource=admin
+    depends_on:
+      mongodb:
+        condition: service_healthy
+    restart: "no"
+
+volumes:
+  redis_data:
+  mongodb_data: 

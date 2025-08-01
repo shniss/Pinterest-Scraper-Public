@@ -1,0 +1,25 @@
+[
+    {
+        "username":"Sean Nissenbaum",
+        "email":"slayerniss@gmail.com",
+        "password":"env:PIN_PASSWORD",
+        "storage_state":null,
+        "cookies":[],
+                 "proxy":{
+           "server":"us-pr.oxylabs.io:10001",
+           "username":"shniss_oleve_pFeOx",
+           "password":"env:PROXY_PASSWORD",
+           "country":null,
+           "session_id":null,
+           "proxy_type":"http",
+           "port":null
+         },
+        "user_agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "last_login":null,
+        "is_active":true,
+        "created_at":{
+          "$date":{"$numberLong":"1753902383339"}
+          },
+          "updated_at":{"$date":{"$numberLong":"1753902383339"}}
+    }
+] 
